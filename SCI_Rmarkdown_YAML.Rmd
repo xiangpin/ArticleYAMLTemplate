@@ -1,0 +1,33 @@
+---
+title: "This is the title of your article"
+author: 
+  - name: NameA
+    institute: [smu,smn]
+  - name: NameB
+    institute: smu
+  - name: NameC
+    institute: smu
+  - NameD:
+      email: XXXX@example.com
+      institute: smu
+      correspondence: true
+institute:
+  - smu: XXXX
+  - smn: XXXX
+bibliography: XXXX.bib
+csl: XXXX.csl
+output:
+  word_document:
+    toc: false
+    pandoc_args:
+      - '--lua-filter=/mnt/d/PHD_information/software/lua-filters/scholarly-metadata/scholarly-metadata.lua'
+      - '--lua-filter=/mnt/d/PHD_information/software/lua-filters/author-info-blocks/author-info-blocks.lua'
+  pdf_document:
+    toc: false
+    keep_tex: true
+    pandoc_args:
+      - '--lua-filter=/mnt/d/PHD_information/software/lua-filters/scholarly-metadata/scholarly-metadata.lua'
+      - '--lua-filter=/mnt/d/PHD_information/software/lua-filters/author-info-blocks/author-info-blocks.lua'
+---
+
+<!-- csl: https://www.zotero.org/styles -->

@@ -1,0 +1,20 @@
+---
+output:
+  md_document:
+    variant: gfm
+html_preview: false
+---
+
+<!-- This is from README.Rmd, please edit that file -->
+
+# ArticleYAMLTemplate
+
+## :writing_hand: Author
+
+[Shuangbin Xu](https://github.com/xiangpin)
+
+School of Basic Medical Sciences, Southern Medical University
+
+## :arrow_double_down: Usage
+
+Download the template file, and edit it.
